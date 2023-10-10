@@ -1,4 +1,6 @@
 # Portfolio Page
+Web site under construction, please visit sophial.studio/dist for the portal page.
+
 
 A Pen created on CodePen.io. Original URL: [https://codepen.io/piigoo/pen/yLRoQYG](https://codepen.io/piigoo/pen/yLRoQYG).
 
