@@ -228,7 +228,7 @@ const Projects = props => {
     React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
     React.createElement(Project, {
       title: "My Art Practices.",
-      img: 'https://raw.githubusercontent.com/piigoo/fcc-portfolio/piigoo-patch-1/src/Images/project_1.jpg',
+      img: 'https://sophial.studio/images/album/project_1.jpg',
       tech: "js css react node",
       link: "https://yagoestevez-anon-msg-board.glitch.me/",
       repo: "https://github.com/yagoestevez/anonymous-message-board" }, /*#__PURE__*/
@@ -243,7 +243,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "My fashion design.",
-      img: 'https://raw.githubusercontent.com/piigoo/fcc-portfolio/piigoo-patch-1/src/Images/project_2.jpg',
+      img: 'https://sophial.studio/images/album/project_2.jpg',
       tech: "js node css",
       link: "https://yagoestevez-stock-price-checker.glitch.me/",
       repo: "https://github.com/yagoestevez/fcc-stock-price-checker" }, /*#__PURE__*/
@@ -258,7 +258,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "My fashion show time.",
-      img: 'https://raw.githubusercontent.com/piigoo/fcc-portfolio/piigoo-patch-1/src/Images/project_3.jpg',
+      img: 'https://sophial.studio/images/album/project_3.jpg',
       tech: "js node css",
       link: "https://yagoestevez-personal-library.glitch.me/",
       repo: "https://github.com/yagoestevez/fcc-personal-library" }, /*#__PURE__*/
@@ -271,7 +271,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Design in our iGEM project.",
-      img: 'https://raw.githubusercontent.com/piigoo/fcc-portfolio/piigoo-patch-1/src/Images/project_4.jpg',
+      img: 'https://sophial.studio/images/album/project_4.jpg',
       tech: "js node css",
       link: "https://yagoestevez-issue-tracker.glitch.me/",
       repo: "https://github.com/yagoestevez/fcc-issue-tracker" }, /*#__PURE__*/
@@ -281,7 +281,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Crafting.",
-      img: 'https://raw.githubusercontent.com/piigoo/fcc-portfolio/piigoo-patch-1/src/Images/project_5.jpg',
+      img: 'https://sophial.studio/images/album/project_5.jpg',
       tech: "js node css",
       link: "https://yagoestevez-metric-imperial-converter.glitch.me/",
       repo: "https://github.com/yagoestevez/fcc-metric-imperial-converter/" }, /*#__PURE__*/
@@ -294,7 +294,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "3D modelling.",
-      img: 'https://raw.githubusercontent.com/piigoo/fcc-portfolio/piigoo-patch-1/src/Images/project_6.jpg',
+      img: 'https://sophial.studio/images/album/project_6.jpg',
       tech: "js node css",
       link: "https://cortala.glitch.me/example",
       repo: "https://github.com/yagoestevez/cortala" }, /*#__PURE__*/
