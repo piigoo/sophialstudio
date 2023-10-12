@@ -260,7 +260,7 @@ const Projects = props => {
       title: "My fashion show time.",
       img: 'https://sophial.studio/images/album/project_3.jpg',
       tech: "js node css",
-      link: "https://yagoestevez-personal-library.glitch.me/",
+      link: "https://sophial.studio/fashion_show/index.html",
       repo: "https://github.com/yagoestevez/fcc-personal-library" }, /*#__PURE__*/
 
     React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap and Pug."), /*#__PURE__*/
