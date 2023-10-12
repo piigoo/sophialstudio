@@ -245,7 +245,7 @@ const Projects = props => {
       title: "My fashion design.",
       img: 'https://sophial.studio/images/album/project_2.jpg',
       tech: "js node css",
-      link: "https://yagoestevez-stock-price-checker.glitch.me/",
+      link: "https://sophial.studio/fashion_design/index.html",
       repo: "https://github.com/yagoestevez/fcc-stock-price-checker" }, /*#__PURE__*/
 
     React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery + Axios, CSS + Bootstrap and Pug."), /*#__PURE__*/
