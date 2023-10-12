@@ -229,8 +229,8 @@ const Projects = props => {
     React.createElement(Project, {
       title: "My Art Practices.",
       img: 'https://sophial.studio/images/album/project_1.jpg',
-      tech: "js css react node",
-      link: "https://yagoestevez-anon-msg-board.glitch.me/",
+      tech: "Art Practice",
+      link: "https://sophial.studio/voyage-slider-gsap/index.html",
       repo: "https://github.com/yagoestevez/anonymous-message-board" }, /*#__PURE__*/
 
     React.createElement("small", null, "Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router."), /*#__PURE__*/
