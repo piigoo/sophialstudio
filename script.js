@@ -273,7 +273,7 @@ const Projects = props => {
       title: "Design in our iGEM project.",
       img: 'https://sophial.studio/images/album/project_4.jpg',
       tech: "js node css",
-      link: "https://sophial.studio/igem/index.html",
+      link: "https://sophial.studio/iGEM/index.html",
       repo: "https://github.com/yagoestevez/fcc-issue-tracker" }, /*#__PURE__*/
 
     React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap and Pug."), /*#__PURE__*/
