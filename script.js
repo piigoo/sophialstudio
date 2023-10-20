@@ -307,7 +307,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "My Art Journey.",
-      img: 'https://sophial.studio/images/album/grow_1.png',
+      img: 'https://sophial.studio/images/album/grow.png',
       tech: "js vue node css",
       link: "https://sophial.studio/journey/index.html",
       repo: "https://github.com/yagoestevez/exercise-tracker" }, /*#__PURE__*/
