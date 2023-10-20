@@ -313,18 +313,7 @@ const Projects = props => {
       repo: "https://github.com/yagoestevez/exercise-tracker" }, /*#__PURE__*/
 
     React.createElement("small", null, "Built using Node, Express, VueJS + Vue Router and CSS + Bootstrap."), /*#__PURE__*/
-    React.createElement("p", null, "A service which lets the users save their daily exercise (or anything) into a log for them to check it later.")), /*#__PURE__*/
-
-
-    React.createElement(Project, {
-      title: "Technical Documentation Page.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Documentify.jpg',
-      tech: "js react css",
-      link: "https://codepen.io/yagoestevez/full/QxOLKX/",
-      repo: "https://github.com/yagoestevez/documentify" }, /*#__PURE__*/
-
-    React.createElement("small", null, "Built using React and CSS."), /*#__PURE__*/
-    React.createElement("p", null, "A technical documentation page made for a little React library I published on NPM."))))));
+    React.createElement("p", null, "A service which lets the users save their daily exercise (or anything) into a log for them to check it later."))))));
 
   
 };
