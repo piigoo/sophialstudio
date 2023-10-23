@@ -310,8 +310,8 @@ const Projects = props => {
       img: 'https://sophial.studio/images/album/grow.png',
       tech: "js vue node css",
       link: "https://sophial.studio/journey/index.html",
-      repo: "https://github.com/yagoestevez/exercise-tracker" }, /*#__PURE__*/
-      id: "my-art-journey"
+      repo: "https://github.com/yagoestevez/exercise-tracker",
+      id: "my-art-journey" }, 
 
     React.createElement("small", null, "Built using Node, Express, VueJS + Vue Router and CSS + Bootstrap."), /*#__PURE__*/
     React.createElement("p", null, "A service which lets the users save their daily exercise (or anything) into a log for them to check it later."))))));
