@@ -27,7 +27,7 @@ const Menu = props => {
 
 
     React.createElement("li", null, /*#__PURE__*/
-    React.createElement("a", { href: "#journey", onClick: props.toggleMenu }, "JOURNEY"))), /*#__PURE__*/
+    React.createElement("a", { href: "#my-art-journey", onClick: props.toggleMenu }, "JOURNEY"))), /*#__PURE__*/
 
 
 
@@ -86,7 +86,7 @@ const Header = props => {
 
     React.createElement("div", { className: "buttons" }, /*#__PURE__*/
     React.createElement("a", { href: "#projects" }, "my portfolio"), /*#__PURE__*/
-    React.createElement("a", { href: "#contact", className: "cta" }, "My Art Journey")))));
+    React.createElement("a", { href: "#my-art-journey", className: "cta" }, "My Art Journey")))));
 
 
 
@@ -311,6 +311,7 @@ const Projects = props => {
       tech: "js vue node css",
       link: "https://sophial.studio/journey/index.html",
       repo: "https://github.com/yagoestevez/exercise-tracker" }, /*#__PURE__*/
+      id: "my-art-journey"
 
     React.createElement("small", null, "Built using Node, Express, VueJS + Vue Router and CSS + Bootstrap."), /*#__PURE__*/
     React.createElement("p", null, "A service which lets the users save their daily exercise (or anything) into a log for them to check it later."))))));
