@@ -111,12 +111,12 @@ const About = props => {
 
     React.createElement("div", { className: "desc full" }, /*#__PURE__*/
     React.createElement("h4", { className: "subtitle" }, "My name is Sophia."), /*#__PURE__*/
-    React.createElement("p", null, "Hi, I'm a 16 years old student currently studying in SCIE. I\u2019m an optimistic girl with tons of hobbies, but what makes me Sophia is my passion for art and design."), /*#__PURE__*/
+    React.createElement("p", null, "Hi, I'm a 17 years old student currently studying in Harrow Bangkok. I\u2019m an optimistic girl with tons of hobbies, but what makes me Sophia is my passion for art and design."), /*#__PURE__*/
 
 
 
 
-    React.createElement("p", null, "I really enjoy pretty things. I was always the \"DT queen\" in the class!")), /*#__PURE__*/
+    React.createElement("p", null, "I really enjoy pretty things. I was inspired by the \"DT queen\" named in the class!")), /*#__PURE__*/
 
 
 
@@ -126,19 +126,19 @@ const About = props => {
 
     React.createElement("div", { className: "desc" }, /*#__PURE__*/
     React.createElement("h4", { className: "subtitle" }, "I'm a designer."), /*#__PURE__*/
-    React.createElement("p", null, "For the front-end I usually work with Javascript, either standalone or including popular frameworks like ReactJS and VueJS. I also make the web pretty by using Sass, CSS and, whenever needed, any of their friends: Bootstrap, Bulma, etc."), /*#__PURE__*/
+    React.createElement("p", null, "At the age of 9, I created and published a series of bilingual clay tutorial videos for children, combining language learning with creative craft-making. Additionally, I organized charity clay workshops and donated the proceeds to support education in rural areas. This marked my first endeavor in using design to make a positive impact on others."), /*#__PURE__*/
 
 
 
 
-    React.createElement("p", null, "For the back-end I also work with Javascript (NodeJS, Express, MongoDB, etc). But, of course, whenever the project requires PHP, I do PHP as well (Wordpress, Laravel, etc).")), /*#__PURE__*/
+    React.createElement("p", null, "At 13, I had my first experience in a real company through a week-long UX internship. I collaborated with professionals to address actual business needs, interpreting user interviews, analyzing competitors, and creating personas, gaining valuable insights into design in practice.")), /*#__PURE__*/
 
 
 
 
     React.createElement("div", { className: "desc" }, /*#__PURE__*/
     React.createElement("h4", { className: "subtitle" }, "Also an entrepreneur."), /*#__PURE__*/
-    React.createElement("p", null, "I feel comfortable working with many Adobe products. Photoshop, Illustrator, InDesign, Lightroom or Xd are some kind of industry standards and I love working with them. I'm not limited to them, though: Gimp, Inkscape or Figma are also very valid applications that I've been working with."), /*#__PURE__*/
+    React.createElement("p", null, "To realize my passion for design into business practise, I’ve created my personal fashion design portal on social media, and gained more than 1500 fans and 12K likes within a year and a half. Besides the creativity I’ve put into the designs, I also value discussions with my business partners’ future path highly. Having corporated with more than 10 shop managers, I construct business plans with them taking into account of the fashion trends, marketing tactics, and branding position of their business."), /*#__PURE__*/
 
 
 
