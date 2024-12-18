@@ -231,10 +231,10 @@ const Projects = props => {
       link: "https://sophial.studio/voyage-slider-gsap/index.html",
       repo: "https://github.com/yagoestevez/anonymous-message-board" }, /*#__PURE__*/
 
-    React.createElement("small", null, "Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router."), /*#__PURE__*/
+    React.createElement("small", null, "Click the picture to view the works."), /*#__PURE__*/
 
 
-    React.createElement("p", null, "This is a full-stack website that I made which lets the users read and post anonymous messages and replies.")), /*#__PURE__*/
+    React.createElement("p", null, "This is a collection of my drawings and paintings.")), /*#__PURE__*/
 
 
 
@@ -246,10 +246,10 @@ const Projects = props => {
       link: "https://sophial.studio/fashion_design/index.html",
       repo: "https://github.com/yagoestevez/fcc-stock-price-checker" }, /*#__PURE__*/
 
-    React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery + Axios, CSS + Bootstrap and Pug."), /*#__PURE__*/
+    React.createElement("small", null, "Click the picture to view the works."), /*#__PURE__*/
 
 
-    React.createElement("p", null, "Another full-stack website to check the current value of any requested stock in the market.")), /*#__PURE__*/
+    React.createElement("p", null, "Most of the fashion designs were created in the summer before my grade 9 study.")), /*#__PURE__*/
 
 
 
@@ -261,8 +261,8 @@ const Projects = props => {
       link: "https://sophial.studio/fashion_show/index.html",
       repo: "https://github.com/yagoestevez/fcc-personal-library" }, /*#__PURE__*/
 
-    React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap and Pug."), /*#__PURE__*/
-    React.createElement("p", null, "A full-stack website to store book titles and comments to each book into a remote database.")), /*#__PURE__*/
+    React.createElement("small", null, "Click the picture to view the works."), /*#__PURE__*/
+    React.createElement("p", null, "As a fashion designer and model in the school fashion show, I had the opportunity to showcase my creative designs while also experiencing firsthand the dynamics of modeling.")), /*#__PURE__*/
 
 
 
@@ -274,8 +274,8 @@ const Projects = props => {
       link: "https://sophial.studio/iGEM/index.html",
       repo: "https://github.com/yagoestevez/fcc-issue-tracker" }, /*#__PURE__*/
 
-    React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap and Pug."), /*#__PURE__*/
-    React.createElement("p", null, "Yet another full-stack app to save and manage technical issues to be fixed.")), /*#__PURE__*/
+    React.createElement("small", null, "Click the picture to view the works."), /*#__PURE__*/
+    React.createElement("p", null, "Yet another practice in the biological project, where I explore the innovative intersection of design and biotechnology.")), /*#__PURE__*/
 
     React.createElement(Project, {
       title: "Crafting.",
@@ -284,8 +284,8 @@ const Projects = props => {
       link: "https://sophial.studio/crafting/index.html",
       repo: "https://github.com/yagoestevez/fcc-metric-imperial-converter/" }, /*#__PURE__*/
 
-    React.createElement("small", null, "Built using Node, Express, JS + jQuery, CSS + Bootstrap and Pug."), /*#__PURE__*/
-    React.createElement("p", null, "Another full-stack for converting values from the Internation System of Units (Metric) into the imperial units.")), /*#__PURE__*/
+    React.createElement("small", null, "Click the picture to view the works."), /*#__PURE__*/
+    React.createElement("p", null, "Crafting has been one of my favorite hobbies ever since.")), /*#__PURE__*/
 
 
 
@@ -297,8 +297,8 @@ const Projects = props => {
       link: "https://sophial.studio/3d_modeling/index.html",
       repo: "https://github.com/yagoestevez/cortala" }, /*#__PURE__*/
 
-    React.createElement("small", null, "Built using Node, Express, CSS + Bootstrap and Pug."), /*#__PURE__*/
-    React.createElement("p", null, "A microservice which takes a raw URL and makes it a short link to make it easy to sent it through the Internet.")), /*#__PURE__*/
+    React.createElement("small", null, "Click the picture to view the works."), /*#__PURE__*/
+    React.createElement("p", null, "A gift to my friend with 3D modeling skills.")), /*#__PURE__*/
 
 
 
@@ -310,8 +310,8 @@ const Projects = props => {
       link: "https://sophial.studio/journey/index.html",
       repo: "https://github.com/yagoestevez/exercise-tracker" }, /*#__PURE__*/
 
-    React.createElement("small", null, "Built using Node, Express, VueJS + Vue Router and CSS + Bootstrap."), /*#__PURE__*/
-    React.createElement("p", null, "A service which lets the users save their daily exercise (or anything) into a log for them to check it later."))))));
+    React.createElement("small", null, "Click the picture to view the works."), /*#__PURE__*/
+    React.createElement("p", null, "This is a brief overview of my art journey."))))));
 
   
 };
