@@ -116,7 +116,7 @@ const About = props => {
 
 
 
-    React.createElement("p", null, "I love creating beautiful things, and being called the \"DT Queen\" by my classmates inspired me to pursue design further.")), /*#__PURE__*/
+    React.createElement("p", null, "I really enjoy pretty things. I was inspired by the \"DT queen\" named in the class!")), /*#__PURE__*/
 
 
 
@@ -144,7 +144,7 @@ const About = props => {
 
 
 
-    React.createElement("p", null, "User interfaces, brochures, fashion design, crafting... You name it! As I mentioned, creating pretty things is particularly important for me."))))));
+    React.createElement("p", null, "User interfaces, brochures, books, branding... You name it! As I mentioned, creating pretty things is particularly important for me."))))));
 
 
 
@@ -213,10 +213,12 @@ const Projects = props => {
     React.createElement("section", { id: "projects" }, /*#__PURE__*/
     React.createElement("div", { className: "projects-container" }, /*#__PURE__*/
     React.createElement("div", { className: "heading" }, /*#__PURE__*/
-    React.createElement("h3", { className: "title" }, "My Art Works"), /*#__PURE__*/
+    React.createElement("h3", { className: "title" }, "My Works"), /*#__PURE__*/
     React.createElement("p", { className: "separator" }), /*#__PURE__*/
-    React.createElement("p", { className: "subtitle" }, "Here's a list of the works I've produced"), /*#__PURE__*/
-    
+    React.createElement("p", { className: "subtitle" }, "Here's a list of ", /*#__PURE__*/
+    React.createElement("u", null, "most"), " of the projects I've been working on lately. All of these were built during my coding camp adventure on",
+    ' ', /*#__PURE__*/
+    React.createElement("a", { href: "https://www.freecodecamp.org/", target: "_blank", rel: "noopener noreferrer" }, "freeCodeCamp"), ", where I've been coding for almost 7 months non-stop until I completed all the projects required to get my Full-Stack Developer certification.")), /*#__PURE__*/
 
 
 
