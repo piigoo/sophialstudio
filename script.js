@@ -116,7 +116,7 @@ const About = props => {
 
 
 
-    React.createElement("p", null, "I really enjoy pretty things. I was inspired by the \"DT queen\" named in the class!")), /*#__PURE__*/
+    React.createElement("p", null, "I love creating beautiful things, and being called the \"DT Queen\" by my classmates inspired me to pursue design further.")), /*#__PURE__*/
 
 
 
