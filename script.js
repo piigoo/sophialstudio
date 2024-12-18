@@ -116,7 +116,7 @@ const About = props => {
 
 
 
-    React.createElement("p", null, "I really enjoy pretty things. I was inspired by the \"DT queen\" named in the class!")), /*#__PURE__*/
+    React.createElement("p", null, "I love creating beautiful things, and being called the \"DT Queen\" by my classmates inspired me to pursue design further.")), /*#__PURE__*/
 
 
 
@@ -144,7 +144,7 @@ const About = props => {
 
 
 
-    React.createElement("p", null, "User interfaces, brochures, books, branding... You name it! As I mentioned, creating pretty things is particularly important for me."))))));
+    React.createElement("p", null, "User interfaces, brochures, fashion design, crafting... You name it! As I mentioned, creating pretty things is particularly important for me."))))));
 
 
 
@@ -208,115 +208,88 @@ const Project = props => {
   Projects Component
  ***********************/
 
-const Projects = props => {
-  return /*#__PURE__*/(
-    React.createElement("section", { id: "projects" }, /*#__PURE__*/
-    React.createElement("div", { className: "projects-container" }, /*#__PURE__*/
-    React.createElement("div", { className: "heading" }, /*#__PURE__*/
-    React.createElement("h3", { className: "title" }, "My Works"), /*#__PURE__*/
-    React.createElement("p", { className: "separator" }), /*#__PURE__*/
-    React.createElement("p", { className: "subtitle" }, "Here's a list of ", /*#__PURE__*/
-    React.createElement("u", null, "most"), " of the projects I've been working on lately. All of these were built during my coding camp adventure on",
-    ' ', /*#__PURE__*/
-    React.createElement("a", { href: "https://www.freecodecamp.org/", target: "_blank", rel: "noopener noreferrer" }, "freeCodeCamp"), ", where I've been coding for almost 7 months non-stop until I completed all the projects required to get my Full-Stack Developer certification.")), /*#__PURE__*/
-
-
-
-
-
-
-    React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
-    React.createElement(Project, {
-      title: "My Art Practices.",
-      img: 'https://sophial.studio/images/album/project_1.jpg',
-      tech: "Art Practice",
-      link: "https://sophial.studio/voyage-slider-gsap/index.html",
-      repo: "https://github.com/yagoestevez/anonymous-message-board" }, /*#__PURE__*/
-
-    React.createElement("small", null, "Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router."), /*#__PURE__*/
-
-
-    React.createElement("p", null, "This is a full-stack website that I made which lets the users read and post anonymous messages and replies.")), /*#__PURE__*/
-
-
-
-
-    React.createElement(Project, {
-      title: "My fashion design.",
-      img: 'https://sophial.studio/images/album/project_2.jpg',
-      tech: "js node css",
-      link: "https://sophial.studio/fashion_design/index.html",
-      repo: "https://github.com/yagoestevez/fcc-stock-price-checker" }, /*#__PURE__*/
-
-    React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery + Axios, CSS + Bootstrap and Pug."), /*#__PURE__*/
-
-
-    React.createElement("p", null, "Another full-stack website to check the current value of any requested stock in the market.")), /*#__PURE__*/
-
-
-
-
-    React.createElement(Project, {
-      title: "My fashion show time.",
-      img: 'https://sophial.studio/images/album/project_3.jpg',
-      tech: "js node css",
-      link: "https://sophial.studio/fashion_show/index.html",
-      repo: "https://github.com/yagoestevez/fcc-personal-library" }, /*#__PURE__*/
-
-    React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap and Pug."), /*#__PURE__*/
-    React.createElement("p", null, "A full-stack website to store book titles and comments to each book into a remote database.")), /*#__PURE__*/
-
-
-
-
-    React.createElement(Project, {
-      title: "Design in our iGEM project.",
-      img: 'https://sophial.studio/images/album/project_4.jpg',
-      tech: "js node css",
-      link: "https://sophial.studio/iGEM/index.html",
-      repo: "https://github.com/yagoestevez/fcc-issue-tracker" }, /*#__PURE__*/
-
-    React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap and Pug."), /*#__PURE__*/
-    React.createElement("p", null, "Yet another full-stack app to save and manage technical issues to be fixed.")), /*#__PURE__*/
-
-    React.createElement(Project, {
-      title: "Crafting.",
-      img: 'https://sophial.studio/images/album/project_5.jpg',
-      tech: "js node css",
-      link: "https://sophial.studio/crafting/index.html",
-      repo: "https://github.com/yagoestevez/fcc-metric-imperial-converter/" }, /*#__PURE__*/
-
-    React.createElement("small", null, "Built using Node, Express, JS + jQuery, CSS + Bootstrap and Pug."), /*#__PURE__*/
-    React.createElement("p", null, "Another full-stack for converting values from the Internation System of Units (Metric) into the imperial units.")), /*#__PURE__*/
-
-
-
-
-    React.createElement(Project, {
-      title: "3D modeling.",
-      img: 'https://sophial.studio/images/album/project_6.jpg',
-      tech: "js node css",
-      link: "https://sophial.studio/3d_modeling/index.html",
-      repo: "https://github.com/yagoestevez/cortala" }, /*#__PURE__*/
-
-    React.createElement("small", null, "Built using Node, Express, CSS + Bootstrap and Pug."), /*#__PURE__*/
-    React.createElement("p", null, "A microservice which takes a raw URL and makes it a short link to make it easy to sent it through the Internet.")), /*#__PURE__*/
-
-
-
-
-    React.createElement(Project, {
-      title: "My Art Journey.",
-      img: 'https://sophial.studio/images/album/grow.png',
-      tech: "js vue node css",
-      link: "https://sophial.studio/journey/index.html",
-      repo: "https://github.com/yagoestevez/exercise-tracker" }, /*#__PURE__*/
-
-    React.createElement("small", null, "Built using Node, Express, VueJS + Vue Router and CSS + Bootstrap."), /*#__PURE__*/
-    React.createElement("p", null, "A service which lets the users save their daily exercise (or anything) into a log for them to check it later."))))));
-
+  const Projects = props => {
+    return React.createElement("section", { id: "projects" },
+      React.createElement("div", { className: "projects-container" },
+        React.createElement("div", { className: "heading" },
+          React.createElement("h3", { className: "title" }, "My Art Works"),
+          React.createElement("p", { className: "separator" }),
+          React.createElement("p", { className: "subtitle" }, "Here's a list of the works I've produced"),
   
-};
+          React.createElement("div", { className: "projects-wrapper" },
+  
+            React.createElement(Project, {
+              title: "My Art Practices.",
+              img: 'https://sophial.studio/images/album/project_1.jpg',
+              tech: "Art Practice",
+              link: "https://sophial.studio/voyage-slider-gsap/index.html",
+              repo: "https://github.com/yagoestevez/anonymous-message-board"
+            },
+              React.createElement("small", null, "Click the picture to view the works."),
+              React.createElement("p", null, "This is a collection of my drawings and paintings.")
+            ),
+  
+            React.createElement(Project, {
+              title: "My fashion design.",
+              img: 'https://sophial.studio/images/album/project_2.jpg',
+              tech: "js node css",
+              link: "https://sophial.studio/fashion_design/index.html",
+              repo: "https://github.com/yagoestevez/fcc-stock-price-checker"
+            },
+              React.createElement("small", null, "Click the picture to view the works."),
+              React.createElement("p", null, "Most of the fashion designs were created in the summer before my grade 9 study.")
+            ),
+  
+            React.createElement(Project, {
+              title: "My fashion show time.",
+              img: 'https://sophial.studio/images/album/project_3.jpg',
+              tech: "js node css",
+              link: "https://sophial.studio/fashion_show/index.html",
+              repo: "https://github.com/yagoestevez/fcc-personal-library"
+            },
+              React.createElement("small", null, "Click the picture to view the works."),
+              React.createElement("p", null, "As a fashion designer and model in the school fashion show, I had the opportunity to showcase my creative designs while also experiencing firsthand the dynamics of modeling.")
+            ),
+  
+            React.createElement(Project, {
+              title: "Design in our iGEM project.",
+              img: 'https://sophial.studio/images/album/project_4.jpg',
+              tech: "js node css",
+              link: "https://sophial.studio/iGEM/index.html",
+              repo: "https://github.com/yagoestevez/fcc-issue-tracker"
+            },
+              React.createElement("small", null, "Click the picture to view the works."),
+              React.createElement("p", null, "Yet another practice in the biological project, where I explore the innovative intersection of design and biotechnology.")
+            ),
+  
+            React.createElement(Project, {
+              title: "Crafting.",
+              img: 'https://sophial.studio/images/album/project_5.jpg',
+              tech: "js node css",
+              link: "https://sophial.studio/crafting/index.html",
+              repo: "https://github.com/yagoestevez/fcc-metric-imperial-converter/"
+            },
+              React.createElement("small", null, "Click the picture to view the works."),
+              React.createElement("p", null, "Crafting has been one of my favorite hobbies ever since.")
+            ),
+  
+            React.createElement(Project, {
+              title: "My Art Journey.",
+              img: 'https://sophial.studio/images/album/grow.png',
+              tech: "js vue node css",
+              link: "https://sophial.studio/journey/index.html",
+              repo: "https://github.com/yagoestevez/exercise-tracker"
+            },
+              React.createElement("small", null, "Click the picture to view the works."),
+              React.createElement("p", null, "This is a brief overview of my art journey.")
+            )
+  
+          )
+        )
+      )
+    );
+  };
+  
 
 
 
@@ -324,41 +297,41 @@ const Projects = props => {
   Contact Component
  ***********************/
 
-const Contact = props => {
-  return /*#__PURE__*/(
-    React.createElement("section", { id: "contact" }, /*#__PURE__*/
-    React.createElement("div", { className: "container" }, /*#__PURE__*/
-    React.createElement("div", { className: "heading-wrapper" }, /*#__PURE__*/
-    React.createElement("div", { className: "heading" }, /*#__PURE__*/
-    React.createElement("p", { className: "title" }, "Want to ", /*#__PURE__*/
-    React.createElement("br", null), "contact me?"), /*#__PURE__*/
+function Contact(props) {
+    return /*#__PURE__*/ (
+        React.createElement("section", { id: "contact" }, /*#__PURE__*/
+            React.createElement("div", { className: "container" }, /*#__PURE__*/
+                React.createElement("div", { className: "heading-wrapper" }, /*#__PURE__*/
+                    React.createElement("div", { className: "heading" }, /*#__PURE__*/
+                        React.createElement("p", { className: "title" }, "Want to ", /*#__PURE__*/
+                            React.createElement("br", null), "contact me?"), /*#__PURE__*/
 
 
-    React.createElement("p", { className: "separator" }), /*#__PURE__*/
-    React.createElement("p", { className: "subtitle" }, "Please, use the form below or send an email to ",
-    '', /*#__PURE__*/
-    React.createElement("span", { className: "mail" }, "web", /*#__PURE__*/
+                        React.createElement("p", { className: "separator" }), /*#__PURE__*/
+                        React.createElement("p", { className: "subtitle" }, "Please, use the form below or send an email to ",
+                            '', /*#__PURE__*/
+                            React.createElement("span", { className: "mail" }, "web", /*#__PURE__*/
 
-    React.createElement("i", { className: "fas fa-at at" }), "yagoestevez", /*#__PURE__*/
+                                React.createElement("i", { className: "fas fa-at at" }), "yagoestevez", /*#__PURE__*/
 
-    React.createElement("i", { className: "fas fa-circle dot" }), "com"), ":")), /*#__PURE__*/
-
-
-
-
-
-    React.createElement(SocialLinks, null)), /*#__PURE__*/
-
-    React.createElement("form", { id: "contact-form", action: "#" }, /*#__PURE__*/
-    React.createElement("input", { placeholder: "Name", name: "name", type: "text", required: true }), /*#__PURE__*/
-    React.createElement("input", { placeholder: "Email", name: "email", type: "email", required: true }), /*#__PURE__*/
-    React.createElement("textarea", { placeholder: "Message", type: "text", name: "message" }), /*#__PURE__*/
-    React.createElement("input", { className: "button", id: "submit", value: "Submit", type: "submit" })))));
+                                React.createElement("i", { className: "fas fa-circle dot" }), "com"), ":")), /*#__PURE__*/
 
 
 
 
-};
+
+                    React.createElement(SocialLinks, null)), /*#__PURE__*/
+
+                React.createElement("form", { id: "contact-form", action: "#" }, /*#__PURE__*/
+                    React.createElement("input", { placeholder: "Name", name: "name", type: "text", required: true }), /*#__PURE__*/
+                    React.createElement("input", { placeholder: "Email", name: "email", type: "email", required: true }), /*#__PURE__*/
+                    React.createElement("textarea", { placeholder: "Message", type: "text", name: "message" }), /*#__PURE__*/
+                    React.createElement("input", { className: "button", id: "submit", value: "Submit", type: "submit" })))));
+
+
+
+
+}
 
 
 
