@@ -213,12 +213,12 @@ const Projects = props => {
     React.createElement("section", { id: "projects" }, /*#__PURE__*/
     React.createElement("div", { className: "projects-container" }, /*#__PURE__*/
     React.createElement("div", { className: "heading" }, /*#__PURE__*/
-    React.createElement("h3", { className: "title" }, "My Art Works"), /*#__PURE__*/
+    React.createElement("h3", { className: "title" }, "My Works"), /*#__PURE__*/
     React.createElement("p", { className: "separator" }), /*#__PURE__*/
     React.createElement("p", { className: "subtitle" }, "Here's a list of ", /*#__PURE__*/
-    React.createElement("u", null, "art works"), " I've done. All of these are my good memory",
+    React.createElement("u", null, "most"), " of the projects I've been working on lately. All of these were built during my coding camp adventure on",
     ' ', /*#__PURE__*/
-    /*#__PURE__*/
+    React.createElement("a", { href: "https://www.freecodecamp.org/", target: "_blank", rel: "noopener noreferrer" }, "freeCodeCamp"), ", where I've been coding for almost 7 months non-stop until I completed all the projects required to get my Full-Stack Developer certification.")), /*#__PURE__*/
 
 
 
